@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7fbfc ;
+}
+.container-fluid{
+    padding: 0;
+}
+a.dropdown-item:hover{
+    background-color: #769fcd;
+    color:white;
+}
+.nav-item{
+    font-weight: 500;
+}
+.wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+a.nav-link.logout:hover{
+    color:red !important;
+}
